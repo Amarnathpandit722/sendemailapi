@@ -33,7 +33,7 @@ import com.send.email.api.services.GmailService;
 @RestController
 public class EmailController {
 
-    @GetMapping("/")
+    @GetMapping("")
     public ModelAndView composeEmail() {
         // Hardcoded email details
         String recipient = "amarnathpandit722@gmail.com";
